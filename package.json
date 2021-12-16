@@ -1,0 +1,21 @@
+{
+  "name": "api-example",
+  "version": "1.0.0",
+  "description": "Backend API Example",
+  "main": "src/app.ts",
+  "repository": "git@github.com:jbravoh/api-example.git",
+  "author": "jbravoh <jbravoharriott@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
